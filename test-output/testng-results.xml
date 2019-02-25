@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="52216" started-at="2018-12-16T05:00:09Z" finished-at="2018-12-16T05:01:02Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="52216" started-at="2018-12-16T05:00:09Z" finished-at="2018-12-16T05:01:02Z">
+      <class name="freeCRMDemo.TestScenarios.LoginTest">
+        <test-method status="PASS" signature="LoginToGmail()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@316bcf94]" name="LoginToGmail" duration-ms="51049" started-at="2018-12-16T10:30:09Z" finished-at="2018-12-16T10:31:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToGmail -->
+        <test-method status="PASS" signature="postOperation(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@316bcf94]" name="postOperation" is-config="true" duration-ms="448" started-at="2018-12-16T10:31:00Z" finished-at="2018-12-16T10:31:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void freeCRMDemo.TestScenarios.LoginTest.LoginToGmail() throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=LoginToGmail status=SUCCESS method=LoginTest.LoginToGmail()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@316bcf94] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postOperation -->
+        <test-method status="PASS" signature="endClasses()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@316bcf94]" name="endClasses" is-config="true" duration-ms="686" started-at="2018-12-16T10:31:01Z" finished-at="2018-12-16T10:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endClasses -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@316bcf94]" name="endTest" is-config="true" duration-ms="0" started-at="2018-12-16T10:31:02Z" finished-at="2018-12-16T10:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:freeCRMDemo.TestScenarios.LoginTest@316bcf94]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-16T10:31:02Z" finished-at="2018-12-16T10:31:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- freeCRMDemo.TestScenarios.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

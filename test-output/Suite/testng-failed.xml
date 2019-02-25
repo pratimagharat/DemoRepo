@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="freeCRMDemo.TestScenarios.TaskTest">
+        <methods>
+          <include name="endTest"/>
+          <include name="endClasses"/>
+          <include name="ClickToTaskTab"/>
+          <include name="postOperation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- freeCRMDemo.TestScenarios.TaskTest -->
+      <class name="freeCRMDemo.TestScenarios.LoginTest">
+        <methods>
+          <include name="endClasses"/>
+          <include name="postOperation"/>
+        </methods>
+      </class> <!-- freeCRMDemo.TestScenarios.LoginTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
